@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="row">
+        <input class="inp" disabled id="top-inp"/>
+    </div>
+    <div class="row">
+        <div class="btn" onClick="inputNum(7)">7</div>
+        <div class="btn" onClick="inputNum(8)">8</div>
+        <div class="btn" onClick="inputNum(9)">9</div>
+        <div class="btn" onClick="inputEqu('=')">=</div>
+    </div>
+    <div class="row">
+        <div class="btn" onClick="inputNum(4)">4</div>
+        <div class="btn" onClick="inputNum(5)">5</div>
+        <div class="btn" onClick="inputNum(6)">6</div>
+        <div class="btn" onClick="inputOper('+')">+</div>
+    </div>
+    <div class="row">
+        <div class="btn" onClick="inputNum(1)">1</div>
+        <div class="btn" onClick="inputNum(2)">2</div>
+        <div class="btn" onClick="inputNum(3)">3</div>
+        <div class="btn" onClick="inputOper('-')">-</div>
+    </div>
+    <div class="row">
+        <div class="btn btn-lg" onClick="inputNum(0)">0</div>
+        <div class="btn" onClick="inputOper('/')">/</div>
+        <div class="btn" onClick="inputOper('*')">*</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.btn {
+  width: 48px;
+  height: 48px;
+  background-color: #2699FB;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.btn:active {
+background-color: #007feb;
+}
+
+
+.btn-lg {
+  width: 100px;
+  height: 48px;
+}
+
+.inp {
+  box-sizing: border-box; 
+  outline: none; 
+  width: 204px;
+  height: 48px;
+  padding: 0 20px;
+  color: #bce0fd;
+}
+
+
+.inp:disabled {
+  background-color: white;
+  border: solid 1px #bce0fd;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; 
+  gap: 4px; 
+  margin-bottom: 4px;
+}
